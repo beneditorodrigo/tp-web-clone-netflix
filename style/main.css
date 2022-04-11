@@ -53,9 +53,32 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
-.titulo {
+.filme-principal .titulo {
+    margin-top: 20px;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal .botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    padding: 15px;
+    color: white;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.filme-principal .botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
 }
