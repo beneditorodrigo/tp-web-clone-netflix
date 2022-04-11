@@ -45,4 +45,17 @@ header nav a:hover {
     font-size: 16px;
     background: url('/img/capa-house.jpg');
     height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 50px;
+}
+
+.titulo {
+    font-size: 40px;
 }
